@@ -1,0 +1,17 @@
+name: Deploy to Production
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@master
+        with:
+          host: 64.225.9.200
+          username: root
+          key: ${{ secrets.DEPLOY_KEY }}
+          script: cd /var/www/train5d.com && git pull origin main
