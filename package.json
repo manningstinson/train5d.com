@@ -24,5 +24,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.96"
   }
 }

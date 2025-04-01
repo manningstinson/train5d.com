@@ -3,3 +3,29 @@ node_modules/
 .DS_Store
 npm-debug.log
 *.log
+
+# Ignore environment variables and certificates
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local development settings
+.env
+.env.local
