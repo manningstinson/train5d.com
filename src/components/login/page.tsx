@@ -136,6 +136,35 @@ const LoginPage: React.FC = () => {
         >
           Login
         </button>
+<button
+  onClick={() => window.location.href = '/api/auth/google'}
+  style={{
+    width: '100%',
+    padding: '10px',
+    backgroundColor: '#ffffff',
+    color: '#5F6368',
+    border: '1px solid #DADCE0',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    marginTop: '10px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: '10px',
+    fontSize: '14px',
+    fontWeight: '500',
+    fontFamily: '"Roboto", sans-serif',
+  }}
+>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+    alt="Google Icon"
+    style={{ width: '20px', height: '20px' }}
+  />
+  Continue with Google
+</button>
+
+ 
       </form>
     </div>
   );
