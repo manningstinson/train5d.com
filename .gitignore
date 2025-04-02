@@ -26,6 +26,11 @@ ENV/
 # Logs
 *.log
 
-# Local development settings
+
+# Environment files
 .env
+*.env
+base.env
+dev.env
+prod.env
 .env.local
