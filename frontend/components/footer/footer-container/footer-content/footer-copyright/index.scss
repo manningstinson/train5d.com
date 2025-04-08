@@ -1,0 +1,72 @@
+
+@import "../../../../../styles/_index.scss";
+
+.footer-copyright {
+  color: #666;
+  white-space: nowrap;
+  margin: 0;
+  padding-top: 1vh;
+  font-size: 1rem;
+
+  @include max('xs') {
+    font-size: 0.75rem;
+    padding-top: 0.3vh;
+    white-space: normal;
+  }
+
+  @include max('sm') {
+    font-size: 0.875rem;
+    padding-top: 0.4vh;
+    white-space: normal;
+  }
+
+  @include min('md') {
+    font-size: 1rem;
+    padding-top: 1vh;
+  }
+
+  @include min('lg') {
+    font-size: 1rem;
+    padding-top: 1vh;
+  }
+
+  @include min('xl') {
+    font-size: 1rem;
+    padding-top: 1vh;
+  }
+}
+
+.footer-copyright {
+  color: #666;
+  white-space: nowrap;
+  margin: 0;
+  padding-top: 1vh;
+  font-size: 1rem;
+
+  @include max('xs') {
+    font-size: 0.75rem;
+    padding-top: 0.3vh;
+    white-space: normal;
+  }
+
+  @include max('sm') {
+    font-size: 0.875rem;
+    padding-top: 0.4vh;
+    white-space: normal;
+  }
+
+  @include min('md') {
+    font-size: 1rem;
+    padding-top: 1vh;
+  }
+
+  @include min('lg') {
+    font-size: 1rem;
+    padding-top: 1vh;
+  }
+
+  @include min('xl') {
+    font-size: 1rem;
+    padding-top: 1vh;
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../../../styles/_index.scss";
+
+.logo-wrapper {
+  img {
+    height: 40px;
+    width: auto;
+    margin-top: 0;
+    
+    @include max('sm') {  // instead of @include small
+      margin-top: 0;
+    }
+  }
+}

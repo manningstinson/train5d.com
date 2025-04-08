@@ -1,0 +1,20 @@
+@use 'variables' as *;  // This gives us access to $breakpoints
+@forward 'variables';   // This forwards the variables to other files
+
+@mixin max($breakpoint) {
+  @media (max-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin min($breakpoint) {
+  @media (min-width: #{map-get($breakpoints, $breakpoint) + 1}) {
+    @content;
+  }
+}
+
+@mixin between($min, $max) {
+  @media (min-width: #{map-get($breakpoints, $min) + 1}) and (max-width: map-get($breakpoints, $max)) {
+    @content;
+  }
+}

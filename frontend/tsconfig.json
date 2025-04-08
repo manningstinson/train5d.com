@@ -23,14 +23,11 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".", // Add this line
+    "baseUrl": ".", // Ensure this points to the root of the 'frontend' directory
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@components/*": [
-        "./frontend/app/components/*" // Ensure the path starts with './'
-      ]
+      "@/*": ["./*"], // Maps @/ to the root of 'frontend'
+      "@components/*": ["./components/*"], // Maps @components/ to 'frontend/components'
+      "@styles/*": ["./styles/*"] // Maps @styles/ to 'frontend/styles'
     }
   },
   "include": [

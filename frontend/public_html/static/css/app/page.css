@@ -1,0 +1,2283 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/footer/index.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/footer/footer-container/index.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #fff;
+}
+@media (min-width: 961px) {
+  .footer-container {
+    padding: 20px 30px;
+  }
+}
+@media (min-width: 1201px) {
+  .footer-container {
+    padding: 20px 40px;
+  }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/footer/footer-container/footer-content/index.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (max-width: 540px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/footer/footer-container/footer-content/footer-menu/index.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 5px;
+}
+.footer-menu a {
+  color: #666;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: lowercase;
+  transition: color 0.2s ease;
+  padding: 0 12px;
+}
+.footer-menu a:hover {
+  color: #333;
+}
+@media (max-width: 375px) {
+  .footer-menu {
+    gap: 2px;
+  }
+  .footer-menu a {
+    font-size: 0.75rem;
+    padding: 0 6px;
+  }
+}
+@media (max-width: 540px) {
+  .footer-menu {
+    gap: 3px;
+  }
+  .footer-menu a {
+    font-size: 0.875rem;
+    padding: 0 8px;
+  }
+}
+@media (min-width: 721px) {
+  .footer-menu {
+    gap: 5px;
+  }
+  .footer-menu a {
+    font-size: 1rem;
+    padding: 0 12px;
+  }
+}
+@media (min-width: 961px) {
+  .footer-menu {
+    gap: 6px;
+  }
+  .footer-menu a {
+    font-size: 1rem;
+    padding: 0 14px;
+  }
+}
+@media (min-width: 1201px) {
+  .footer-menu {
+    gap: 7px;
+  }
+  .footer-menu a {
+    font-size: 1rem;
+    padding: 0 16px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/footer/footer-container/footer-content/footer-copyright/index.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.footer-copyright {
+  color: #666;
+  white-space: nowrap;
+  margin: 0;
+  padding-top: 1vh;
+  font-size: 1rem;
+}
+@media (max-width: 375px) {
+  .footer-copyright {
+    font-size: 0.75rem;
+    padding-top: 0.3vh;
+    white-space: normal;
+  }
+}
+@media (max-width: 540px) {
+  .footer-copyright {
+    font-size: 0.875rem;
+    padding-top: 0.4vh;
+    white-space: normal;
+  }
+}
+@media (min-width: 721px) {
+  .footer-copyright {
+    font-size: 1rem;
+    padding-top: 1vh;
+  }
+}
+@media (min-width: 961px) {
+  .footer-copyright {
+    font-size: 1rem;
+    padding-top: 1vh;
+  }
+}
+@media (min-width: 1201px) {
+  .footer-copyright {
+    font-size: 1rem;
+    padding-top: 1vh;
+  }
+}
+
+.footer-copyright {
+  color: #666;
+  white-space: nowrap;
+  margin: 0;
+  padding-top: 1vh;
+  font-size: 1rem;
+}
+@media (max-width: 375px) {
+  .footer-copyright {
+    font-size: 0.75rem;
+    padding-top: 0.3vh;
+    white-space: normal;
+  }
+}
+@media (max-width: 540px) {
+  .footer-copyright {
+    font-size: 0.875rem;
+    padding-top: 0.4vh;
+    white-space: normal;
+  }
+}
+@media (min-width: 721px) {
+  .footer-copyright {
+    font-size: 1rem;
+    padding-top: 1vh;
+  }
+}
+@media (min-width: 961px) {
+  .footer-copyright {
+    font-size: 1rem;
+    padding-top: 1vh;
+  }
+}
+@media (min-width: 1201px) {
+  .footer-copyright {
+    font-size: 1rem;
+    padding-top: 1vh;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/header/index.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+  display: block;
+}
+@media (max-width: 375px) {
+  .header {
+    height: 65px;
+  }
+}
+@media (max-width: 540px) {
+  .header {
+    height: 70px;
+  }
+}
+@media (min-width: 721px) {
+  .header {
+    height: 80px;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/header/header-container/index.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #373749;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  height: 65px;
+  min-height: 65px;
+  max-height: 65px;
+}
+
+.header-content {
+  max-width: 1248px;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 375px) {
+  .header-content {
+    padding: 1rem;
+  }
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+@media (max-width: 540px) {
+  .desktop-nav {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .desktop-nav {
+    gap: 1.5rem;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/header/header-container/logo-wrapper/index.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.logo-wrapper img {
+  height: 40px;
+  width: auto;
+  margin-top: 0;
+}
+@media (max-width: 540px) {
+  .logo-wrapper img {
+    margin-top: 0;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/header/header-container/nav-wrapper/index.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.nav-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+.nav-wrapper a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 1rem;
+  transition: opacity 0.3s ease;
+}
+.nav-wrapper a:hover {
+  opacity: 0.8;
+}
+.nav-wrapper a.active {
+  opacity: 0.8;
+}
+@media (max-width: 720px) {
+  .nav-wrapper {
+    display: none;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/header/header-container/menu-wrapper/index.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.menu-wrapper {
+  display: none;
+}
+@media (max-width: 540px) {
+  .menu-wrapper {
+    display: block;
+  }
+}
+
+.hamburger-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px;
+  z-index: 1000;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+@media (max-width: 540px) {
+  .hamburger-button {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+  }
+}
+.hamburger-button span {
+  background-color: #fff;
+  height: 2px;
+  width: 24px;
+  transition: all 0.3s ease;
+}
+.hamburger-button.open span {
+  background-color: #333;
+}
+.hamburger-button.open span:first-child {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger-button.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-button.open span:last-child {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.mobile-menu {
+  background-color: #fafafa;
+  height: 100vh;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  transform: translateX(100%);
+  transition: all 0.3s ease;
+  width: 100%;
+  z-index: 999;
+}
+.mobile-menu.open {
+  opacity: 1;
+  transform: translateX(0);
+}
+.mobile-menu.open span {
+  background-color: #333;
+}
+.mobile-menu .mobile-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  padding: 20px;
+}
+.mobile-menu .mobile-nav a {
+  color: #333;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  text-decoration: none;
+  text-transform: lowercase;
+  transition: opacity 0.3s ease;
+}
+.mobile-menu .mobile-nav a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+.mobile-menu .mobile-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: -60px;
+}
+.mobile-menu .mobile-social a {
+  color: #333;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+.mobile-menu .mobile-social a:hover {
+  opacity: 0;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/header/header-container/social-icons-wrapper/index.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.social-icons-wrapper {
+  display: flex;
+  gap: 0.75rem;
+}
+.social-icons-wrapper a {
+  color: #333;
+  font-size: 4rem;
+  transition: opacity 0.3s ease;
+}
+.social-icons-wrapper a:hover {
+  opacity: 0.8;
+}
+@media (max-width: 540px) {
+  .social-icons-wrapper {
+    display: none;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/layout/container/index.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+@media (min-width: 376px) {
+  .container {
+    max-width: 375px;
+  }
+}
+@media (min-width: 541px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 721px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 961px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1201px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1401px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./components/layout/page-wrapper/index.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}
+
+.page-wrapper {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #fafafa;
+}

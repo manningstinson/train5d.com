@@ -1,6 +1,6 @@
-// File: app/layout.tsx
 import { Inter } from 'next/font/google';
 import AuthSessionProvider from '../components/auth/SessionProvider';
+import '../styles/_index.scss'; // Import your global styles
 
 const inter = Inter({ subsets: ['latin'] });
 

@@ -1,0 +1,26 @@
+
+@import "../../styles/_index.scss";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%; // Changed from 100vw to prevent overflow
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+  display: block;
+  
+  @include max('xs') {  // instead of @include x-small
+    height: 65px;
+  }
+  
+  @include max('sm') {  // instead of @include small
+    height: 70px;
+  }
+  
+  @include min('md') {  // instead of @include min-medium
+    height: 80px;
+  }
+}

@@ -1,0 +1,26 @@
+@import "../../../../styles/_index.scss";
+
+.nav-wrapper {
+  display: flex;
+  gap: 2rem;
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 1rem;
+    transition: opacity 0.3s ease;
+    
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &.active {
+      opacity: 0.8;
+    }
+  }
+
+  @include max('md') {  // instead of @media (max-width: 768px)
+    display: none;
+  }
+}

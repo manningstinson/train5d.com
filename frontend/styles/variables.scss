@@ -1,0 +1,99 @@
+$breakpoint-xs: 480px;
+$breakpoint-sm: 481px;
+$breakpoint-md: 769px;
+$breakpoint-lg: 1025px;
+$breakpoint-xl: 1201px;
+$breakpoint-xxl: 1441px;
+
+// Breakpoints map (now all variables are defined before use)
+$breakpoints: (
+  'xs': $breakpoint-xs,
+  'sm': $breakpoint-sm,
+  'md': $breakpoint-md,
+  'lg': $breakpoint-lg,
+  'xl': $breakpoint-xl,
+  'xxl': $breakpoint-xxl
+);
+// Colors
+$color-primary: #333;  // Main brand color
+$color-primary-dark: #333;  // Darker shade for hover states
+$color-text-dark: #1f2937;  // For headings and important text
+$color-text-medium: #4b5563;  // For body text
+$color-text-light: #6b7280;  // For secondary text
+$color-text-lighter: #9ca3af;  // For placeholder text
+$color-border: #e5e7eb;  // For borders and dividers
+$color-accent: #0d55e5;  // For highlighting or emphasis
+
+// Background Colors
+$primary-bg: #fafafa;  // Main background color
+$secondary-bg: #fff;  // Secondary background color
+
+// Spacing
+$spacing-xs: 0.75rem;
+$spacing-sm: 1rem;
+$spacing-md: 1.5rem;
+$spacing-lg: 3rem;
+$spacing-xl: 4rem;
+
+// Link Colors
+$link-color: $color-primary;  // Default link color
+$link-color-hover: $color-primary-dark;  // Link color on hover
+$link-color-visited: darken($color-primary, 10%);  // Visited link color
+$link-color-active: darken($color-primary, 15%);  // Active link color
+$link-color-disabled: $color-text-lighter;  // Disabled link color
+
+// Link Decorations
+$link-decoration: none;  // Default text-decoration
+$link-decoration-hover: underline;  // Hover text-decoration
+$link-opacity-disabled: 0.5;  // Opacity for disabled links
+
+// Form elements
+$input-height: 3rem;
+$border-radius: 0.5rem;
+
+// Container Sizes
+$max-width-container: 1200px;  // Changed from auto to a specific width
+
+// Icon Sizes
+$icon-size: 1.25rem;
+
+// Typography
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.875rem;
+$font-size-base: 1rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.25rem;
+$font-size-2xl: 1.5rem;
+$font-size-3xl: 1.875rem;
+$font-size-4xl: 2.25rem;
+
+// Font Weights
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Line Heights
+$line-height-tight: 1.25;
+$line-height-normal: 1.5;
+$line-height-relaxed: 1.75;
+
+// Z-index
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-fixed: 1030;
+$z-index-modal-backdrop: 1040;
+$z-index-modal: 1050;
+$z-index-popover: 1060;
+$z-index-tooltip: 1070;
+
+// Transitions
+$transition-base: all 0.2s ease-in-out;
+$transition-fast: all 0.1s ease-in-out;
+$transition-slow: all 0.3s ease-in-out;
+
+// Shadows
+$shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+$shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+$shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+

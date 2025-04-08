@@ -1,0 +1,20 @@
+@import "../../../../styles/_index.scss";
+
+.social-icons-wrapper {
+  display: flex;
+  gap: $spacing-xs;
+  
+  a {
+    color: $color-primary;
+    font-size: 4rem;
+    transition: opacity 0.3s ease;
+    
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  
+  @include max('sm') {  // instead of @include small
+    display: none;
+  }
+}

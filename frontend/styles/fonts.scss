@@ -1,0 +1,43 @@
+// _fonts.scss
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('../assets/fonts/open-sans/open-sans-variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../assets/fonts/montserrat/montserrat-variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url('../assets/fonts/inter/inter-variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url('../assets/fonts/nunito/nunito-variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url('../assets/fonts/raleway/raleway-variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url('../assets/fonts/playfair-display/playfair-display-variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}

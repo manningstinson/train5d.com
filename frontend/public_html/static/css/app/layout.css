@@ -67,3 +67,143 @@
 }.__className_d65c78 {font-family: 'Inter', 'Inter Fallback';font-style: normal
 }
 
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./styles/_index.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1026px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #0d55e5;
+  margin-top: 1.5rem;
+}
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(/_next/static/media/open-sans-variable.8c5add8e.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/_next/static/media/montserrat-variable.d61a75a0.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/_next/static/media/inter-variable.08ace62d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/_next/static/media/nunito-variable.bd40ab8d.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(/_next/static/media/raleway-variable.564c142b.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(/_next/static/media/playfair-display-variable.b113b484.woff2) format("woff2");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+:export {
+  xs: 375px;
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1200px;
+  xxl: 1400px;
+}

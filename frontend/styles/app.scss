@@ -1,0 +1,16 @@
+@use './styles' as *;  // Assuming your _index.scss is in a styles directory
+
+.app-container {
+  @include container;
+  min-height: 100vh;
+}
+
+.main-content {
+  @include container;
+
+  // For header height
+  padding-top: 80px;
+  text-align: center;
+
+  @include small;  // Apply the small mixin directly
+}

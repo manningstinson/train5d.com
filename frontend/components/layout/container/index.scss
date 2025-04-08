@@ -1,0 +1,39 @@
+// src/components/layout/container/index.scss
+@import "../../../styles/_index.scss";
+
+.container {
+ width: 100%;
+ padding: 0 1rem;
+ margin: 0 auto;
+
+ // Progressive breakpoints
+ @include min('xs') { 
+   max-width: 375px; 
+ }
+ 
+ @include min('sm') { 
+   max-width: 540px; 
+ }
+ 
+ @include min('md') { 
+   max-width: 720px; 
+ }
+ 
+ @include min('lg') { 
+   max-width: 960px; 
+ }
+ 
+ @include min('xl') { 
+   max-width: 1200px; 
+ }
+ 
+ @include min('xxl') { 
+   max-width: 1400px; 
+ }
+}
+
+.container-fluid {
+ width: 100%;
+ margin: 0 auto;
+ padding: 0 1rem;
+}

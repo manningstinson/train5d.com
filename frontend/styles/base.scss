@@ -1,0 +1,60 @@
+@use './variables' as *;  // Import variables at the top
+
+// Reset box model for all elements
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// Root styles
+:root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+// HTML defaults
+html {
+  scroll-behavior: smooth;
+}
+
+// Body defaults
+body {
+  font-family: "Arial", sans-serif;
+  background-color: $primary-bg;
+  margin: 0;
+  padding: 0;
+}
+
+// Typography
+h1 {
+  color: $color-primary;
+}
+
+// Links
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// Buttons
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+// Lists
+ul, ol {
+  list-style: none;
+}

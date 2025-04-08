@@ -1,0 +1,40 @@
+// HeaderContainer.scss
+
+@import "../../../styles/_index.scss";
+
+.header-container {
+  @include flex-center; // Using utility mixin
+  background-color: #373749;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  height: 65px;
+  min-height: 65px;
+  max-height: 65px;
+}
+
+.header-content {
+  max-width: 1248px;
+  width: 100%;
+  padding: 1rem 2rem;
+
+  @include flex-between; // Using utility mixin
+  
+  @include max('xs') {  // instead of @include x-small
+    padding: 1rem;
+  }
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  
+  @include max('sm') {  // instead of @include small
+    display: none;
+  }
+  
+  @include max('md') {  // instead of @include medium
+    gap: 1.5rem;
+  }
+}

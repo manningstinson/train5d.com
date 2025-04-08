@@ -1,0 +1,48 @@
+// responsive-styles.scss
+@use 'utility-mixins' as *;
+@use 'variables' as *;
+
+// Update breakpoints to match container max-widths
+$breakpoints: (
+  'xs': 375px,    // Changed from 480px to match container
+  'sm': 540px,    // Changed from 768px to match container
+  'md': 720px,    // Changed from 1024px to match container
+  'lg': 960px,    // Changed from 1200px to match container
+  'xl': 1200px,   // Changed from 1440px to match container
+  'xxl': 1400px   // Changed from 1441px to match container
+);
+
+// Your mixins might need adjustment to better reflect the new breakpoint strategy
+@mixin x-small {
+  @include max('xs') { @content; }
+}
+
+@mixin small {
+  @include between('xs', 'sm') { @content; }
+}
+
+@mixin medium {
+  @include between('sm', 'md') { @content; }
+}
+
+@mixin large {
+  @include between('md', 'lg') { @content; }
+}
+
+@mixin x-large {
+  @include between('lg', 'xl') { @content; }
+}
+
+@mixin xx-large {  // Added to match your container xxl
+  @include min('xl') { @content; }
+}
+
+// Export for JavaScript usage
+:export {
+  xs: map-get($breakpoints, 'xs');
+  sm: map-get($breakpoints, 'sm');
+  md: map-get($breakpoints, 'md');
+  lg: map-get($breakpoints, 'lg');
+  xl: map-get($breakpoints, 'xl');
+  xxl: map-get($breakpoints, 'xxl');  // Added xxl export
+}

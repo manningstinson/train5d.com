@@ -1,0 +1,59 @@
+// Breakpoint Reference Guide
+
+// Extra Small (xs) - 480px
+@include max('xs') {  // 0 to 480px
+  // Mobile styles
+}
+@include min('xs') {  // 481px and up
+  // Styles for larger than mobile
+}
+
+// Small (sm) - 481px
+@include max('sm') {  // 0 to 481px
+  // Mobile to small tablet styles
+}
+@include min('sm') {  // 482px and up
+  // Styles for larger than small tablet
+}
+
+// Medium (md) - 769px
+@include max('md') {  // 0 to 769px
+  // Mobile to tablet styles
+}
+@include min('md') {  // 770px and up
+  // Desktop styles
+}
+
+// Large (lg) - 1025px
+@include max('lg') {  // 0 to 1025px
+  // Styles for smaller than desktop
+}
+@include min('lg') {  // 1026px and up
+  // Large desktop styles
+}
+
+// Extra Large (xl) - 1201px
+@include max('xl') {  // 0 to 1201px
+  // Styles for smaller than extra large
+}
+@include min('xl') {  // 1202px and up
+  // Extra large desktop styles
+}
+
+// Extra Extra Large (xxl) - 1441px
+@include max('xxl') {  // 0 to 1441px
+  // Styles for smaller than XXL
+}
+@include min('xxl') {  // 1442px and up
+  // XXL styles
+}
+
+/*
+Actual Breakpoint Values:
+$breakpoint-xs: 480px
+$breakpoint-sm: 481px
+$breakpoint-md: 769px
+$breakpoint-lg: 1025px
+$breakpoint-xl: 1201px
+$breakpoint-xxl: 1441px
+*/

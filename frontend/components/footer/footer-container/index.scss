@@ -1,0 +1,21 @@
+// src/components/footer/footer-container/index.scss
+@import "../../../styles/_index.scss";
+
+.footer-container {
+  width: 100%;
+  max-width: 1200px;  // This ensures content won't exceed wrapper
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #fff;
+
+  @include min('lg') {
+    padding: 20px 30px;
+  }
+
+  @include min('xl') {
+    padding: 20px 40px;
+  }
+}

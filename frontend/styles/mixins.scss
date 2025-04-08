@@ -1,0 +1,102 @@
+// Container
+@mixin container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+// Flexbox Utilities
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Component Wrappers
+@mixin component-wrapper {
+  @include container;
+  @include flex-center;
+  @include smooth-transition;
+}
+
+// Form Elements
+@mixin form-input {
+  width: 100%;
+  height: $input-height;
+  padding: $spacing-xs;
+  border-radius: $border-radius;
+  border: 1px solid $color-border;
+  background-color: white;
+  color: $color-text-medium;
+
+  &::placeholder {
+    color: $color-text-lighter;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: $color-primary;
+  }
+}
+
+// Buttons
+@mixin button-primary {
+  width: 100%;
+  height: $input-height;
+  background-color: $color-primary;
+  color: white;
+  border: none;
+  border-radius: $border-radius;
+  font-size: 1.125rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: $color-primary-dark;
+  }
+}
+
+// Link Styles
+@mixin link-styles {
+  color: $link-color;
+  text-decoration: $link-decoration;
+  transition: $link-transition;
+
+  &:hover {
+    color: $link-color-hover;
+    text-decoration: $link-decoration-hover;
+  }
+
+  &:visited {
+    color: $link-color-visited;
+  }
+
+  &:active {
+    color: $link-color-active;
+  }
+
+  &:disabled,
+  &[disabled] {
+    color: $link-color-disabled;
+    opacity: $link-opacity-disabled;
+    cursor: not-allowed;
+  }
+}
+
+// Alternative Link Styles
+@mixin link-styles-current-color {
+  color: currentcolor;
+  text-decoration: $link-decoration;
+  transition: $link-transition;
+
+  &:hover {
+    text-decoration: $link-decoration-hover;
+  }
+}

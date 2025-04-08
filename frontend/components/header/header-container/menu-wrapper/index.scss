@@ -1,0 +1,116 @@
+// src/components/header/header-container/menu-wrapper/MenuWrapper.scss
+@import "../../../../styles/_index.scss";
+
+.menu-wrapper {
+  display: none;
+  
+  @include max('sm') {  // instead of @include small
+    display: block;
+  }
+}
+
+.hamburger-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px;
+  z-index: 1000;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+
+  @include max('sm') {  // instead of @include small
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+  }
+
+  span {
+    background-color: #fff;
+    height: 2px;
+    width: 24px;
+    transition: all 0.3s ease;
+  }
+
+  &.open span {
+    background-color: #333;
+
+    &:first-child {
+      transform: translateY(8px) rotate(45deg);
+    }
+
+    &:nth-child(2) {
+      opacity: 0;
+    }
+
+    &:last-child {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  }
+}
+
+.mobile-menu {
+  background-color: #fafafa;
+  height: 100vh;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  transform: translateX(100%);
+  transition: all 0.3s ease;
+  width: 100%;
+  z-index: 999;
+
+  &.open {
+    opacity: 1;
+    transform: translateX(0);
+    
+    span {
+      background-color: #333;
+    }
+  }
+
+  .mobile-nav {
+    @include flex-center;
+    flex-direction: column;
+    height: 70vh;
+    padding: 20px;
+
+    a {
+      color: $link-color;
+      font-size: 1.5rem;
+      margin: 10px 0;
+      text-decoration: none;
+      text-transform: lowercase;
+      transition: opacity 0.3s ease;
+
+      &:hover {
+        opacity: 0.8;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .mobile-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: -60px;
+
+    a {
+      color: #333;
+      text-decoration: none;
+      transition: opacity 0.3s ease;
+      font-size: 1rem;
+      text-transform: lowercase;
+
+      &:hover {
+        opacity: 0;
+      }
+    }
+  }
+}
