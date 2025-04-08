@@ -1,8 +1,8 @@
 // File: /workspaces/train5d.com/app/api/auth/google/route.ts
-import * as entry from '../../../../../../app/api/auth/google/route.js'
+import * as entry from '../../../../../../frontend/app/api/auth/google/route.js'
 import type { NextRequest } from 'next/server.js'
 
-type TEntry = typeof import('../../../../../../app/api/auth/google/route.js')
+type TEntry = typeof import('../../../../../../frontend/app/api/auth/google/route.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }
