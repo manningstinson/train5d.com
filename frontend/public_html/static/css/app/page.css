@@ -1197,7 +1197,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #373749;
+  background-color: #f1f5f7;
   width: 100%;
   margin: 0;
   box-sizing: border-box;
@@ -1532,11 +1532,12 @@ h1 {
   gap: 2rem;
 }
 .nav-wrapper a {
-  color: #fff;
+  color: #464658;
   text-decoration: none;
   text-transform: lowercase;
   font-size: 1rem;
   transition: opacity 0.3s ease;
+  font-weight: 700;
 }
 .nav-wrapper a:hover {
   opacity: 0.8;
@@ -1720,8 +1721,8 @@ h1 {
   }
 }
 .hamburger-button span {
-  background-color: #fff;
-  height: 2px;
+  background-color: #464658;
+  height: 3px;
   width: 24px;
   transition: all 0.3s ease;
 }

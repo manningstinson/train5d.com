@@ -29,10 +29,11 @@
   }
 
   span {
-    background-color: #fff;
-    height: 2px;
+    background-color: #464658;
+    height: 3px;
     width: 24px;
     transition: all 0.3s ease;
+    
   }
 
   &.open span {
