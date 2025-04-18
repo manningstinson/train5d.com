@@ -7,6 +7,11 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: 'Train5D',
   description: 'Wellness Coaching for Beginners',
+  icons: {
+    icon: [
+      { url: '/assets/icons/favicon.svg', type: 'image/svg+xml' }
+    ]
+  }
 }
 
 export default function RootLayout({
